@@ -9,17 +9,10 @@ security, hardware security, cryptography, digital electronics, embedded control
  <body>
    <nav>
      <ul>
-       <li><a href=”/”>Home</a></li>
-       <li><a href=”/research”>Research</a></li>
-       <li><a href=”/publications”>Publications</a></li>
-       <li><a href=”/contact”>Contact</a></li>
- 
       <P><B><H4><CENTER><A href="/sergei-skorobogatov/#news">[What's New]</A>
          <A href="/sergei-skorobogatov/#expertise">[My Expertise]</A>
          <A href="/sergei-skorobogatov/#research">[Research]</A>
          <A href="/sergei-skorobogatov/#publications">[Publications]</A></CENTER></H4></B>
-
-    
     </ul>
    </nav>
    <div class=”container”>
@@ -38,50 +31,444 @@ security, hardware security, cryptography, digital electronics, embedded control
 <BR>2017 - proved practicality of direct SEM imaging of EEPROM and Flash memory which paved the way for inexpensive memory extraction at scale;
 <BR>2018 - demonstrated decapsulation on a battery powered chip which proved that decapsulation with acid is not as dangerous as it was thought to be;
 <BR>2020 - found backdoor and successfully cloned Infineon Secure Element SLE95250 Optiga Trust B chip.
-
  
- 
- 
- <H3 id=expertise>Expertise</H3>
-
+<H2 id=expertise>Expertise</H2>
 <p>Some of my special skills and fields of knowledge include:
 
 <UL><LI>Secure microcontrollers
     <LI>Tamper resistance, smartcard systems, analysis of secure systems
     <LI>Decapsulation and chemical (wet) etching
-    <LI><A
-    href="http://www.cl.cam.ac.uk/TechReports/UCAM-CL-TR-630.html">Semi-invasive
-    attacks</A>
+    <LI><A href="http://www.cl.cam.ac.uk/TechReports/UCAM-CL-TR-630.html">Semi-invasive attacks</A>
     <LI>Focused Ion Beam (FIB) workstation (FEI Vectra 200)
     <LI>Scanning Electron Microscopy (SEM) (Zeiss Leo 1530VP, EVO10; FEI Magellan 400L, Phenom ProX)
     <LI>Dual-beam FIB/SEM (FEI Helios NanoLab 650, Zeiss CrossBeam 540)
     <LI>Atomic Force Microscopy (AFM) (<A href="http://www.cl.cam.ac.uk/~sps32/veeco_es.html">Veeco EnviroScope AFM</A>)
-    <LI><A
-href="http://www.cl.cam.ac.uk/~sps32/laser_cutter.pdf">Laser
-cutting systems</A>
-    <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster1.pdf">Probing
-stations and microprobing techniques</A>
-    <LI>Submicron mechanical positioning (<A
-href="http://www.cl.cam.ac.uk/~sps32/motorised_stage.pdf">stage1</A>,
+    <LI><A href="http://www.cl.cam.ac.uk/~sps32/laser_cutter.pdf">Laser cutting systems</A>
+    <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster1.pdf">Probing stations and microprobing techniques</A>
+    <LI>Submicron mechanical positioning (<A href="http://www.cl.cam.ac.uk/~sps32/motorised_stage.pdf">stage1</A>,
 <A href="http://www.cl.cam.ac.uk/~sps32/pm500-1l_2.html">stage2</A>,
 <A href="http://www.cl.cam.ac.uk/~sps32/pm500-1a_3.html">stage3</A>,
 <A href="http://www.cl.cam.ac.uk/~sps32/pm500-1l_4.html">stage4</A> ).
-    <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster1.pdf">Laser
-microscopy</A>
-    <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster2.pdf">Advanced
-imaging techniques</A>
-    <LI>Assembler programming (8048, Z80, 8051, 6502, SAM47, 80x86,
-6805/08/11, PIC12/16/18/24, 68000, AVR, MIPS, ARM, MSP430, H8/300, PowerPC, V850)
+    <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster1.pdf">Laser microscopy</A>
+    <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster2.pdf">Advanced imaging techniques</A>
+    <LI>Assembler programming (8048, Z80, 8051, 6502, SAM47, 80x86, MC68HC05/HC08/HC11, PIC12, PIC16, PIC18, PIC24, 68000, AVR, MIPS, ARM, MSP430, H8/300, PowerPC, V850)
     <LI>C/C++ programming for PC (Windows) and embedded systems (PIC, ARM)
     <LI>Verilog HDL programming (Altera, Xilinx, Actel)
     <LI>Designing of hardware devices using CPLDs and FPGAs (Altera, Xilinx, Actel)
     <LI>Printed Circuit Boards (PCB) design
     <LI>IBM PC hardware design and programming
-    <LI>Hardware design and programming for Sinclair ZX Spectrum,
-Nintendo (NES) game console, SEGA Megadrive game console</UL>
+    <LI>Hardware design and programming for Sinclair ZX Spectrum, Nintendo (NES) game console, SEGA Megadrive game console</UL>
 
      
+<H2 id=research>Research</H2>
+<P>I work in the Hardware Security field on attack technologies and tamper-resistant processors. My <A href="http://www.cl.cam.ac.uk/~sps32/sec_news.html">Hardware Security research</A> is aimed at finding vulnerabilities, hidden functions and backdoors in silicon chips. Many new attack methods and techniques were developed by me in the past decade. Some of them were previously thought to be impossible.
+
+<P>I presented my latest research on security of the IronKey and other Secure USB Flash Drives at  Hardware Security Conference and Training (Hardwear.IO Netherlands 2021), 28-29 October 2021. The title of my talk on 29th October was: <a href="http://www.cl.cam.ac.uk/~sps32/HWIO_IRONKEY.pdf">Teardown and feasibility study of IronKey - the most secure USB Flash drive</a>. The full paper is available <A href="http://www.cl.cam.ac.uk/~sps32/IronKey_teardown.pdf">here</A>.
+
+ <P>Here is the list of some of my recent research projects:
+<UL>
+<LI>Direct data extraction from <A href="https://www.cl.cam.ac.uk/~sps32/istfa2016_sem.pdf">EEPROM</a> and <A href="https://www.cl.cam.ac.uk/~sps32/cardis2016_sem.pdf">Flash</a> memory
+<LI><A href="https://www.cl.cam.ac.uk/~sps32/PAINE2018_3R.pdf">Failure analysis of embedded systems</a>
+<LI>Searching for <A href="http://www.cl.cam.ac.uk/~sps32/SG_talk_SRB.pdf">backdoors</a> and <A href="http://www.cl.cam.ac.uk/~sps32/Z80proj/Z80_traps.pdf">Trojans</a> in silicon devices
+<LI>Using <A href="http://www.cl.cam.ac.uk/~sps32/qvl_proj.html">new methods</A> of side-channel analysis for finding backdoors and trojans in secure chips
+<LI>Using <A href="http://www.cl.cam.ac.uk/~sps32/hard_mon.html">new technology</A> for health monitoring of hardware systems used in automotive, aerospace and industrial applications
+<LI>Using <A href="http://www.cl.cam.ac.uk/~sps32/qvl_proj.html">side-channel analysis</A> and <A href="http://www.cl.cam.ac.uk/~sps32/SG_talk_BA.pdf">fault attacks</A> for partial reverse engineering of secure chips
+<LI>Developing <A href="http://www.cl.cam.ac.uk/~sps32/qvl_proj.html">new technology</A> for effective side-channel analysis and <A href="http://www.cl.cam.ac.uk/~sps32/ches2010_rump.pdf">secret key extraction</A> from real-world devices
+</UL>
+ 
+<H3>Past projects</H3>
+
+<UL><LI>Development and debugging of microcontroller based secure fiscal memory card for Cash Control Monitor <I>(Master thesis project at University)</I>
+<LI>System for ophthalmic rehabilitation based on Nintendo Game Console <I>(Co-authorship in patent invention)</I>
+<LI><A HREF="http://www.cl.cam.ac.uk/~sps32/proz1.html">Technology and special hardware devices for elimination of ophthalmic tension during work at CRT systems - TVs and Monitors</A> <I>(Patented in Co-authorship)</I>
+<LI><A HREF="http://www.cl.cam.ac.uk/~sps32/proz6.html">System based on SEGA Nomad Game Console for analyzing topography of a human eye's cornea</A> </UL>
      
+<P><H4>I am a member of the following communities:</H4>
+<UL>
+<LI>Hardware-Oriented Security and Trust (HOST), Program Committee (2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019)
+<LI>Cryptographic Hardware and Embedded Systems (CHES), Program Committee (2010, 2012, 2016, 2017, 2018, 2019, 2020)
+<LI>Fault Diagnosis and Tolerance in Cryptography (FDTC), Program Committee (2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2020, 2021)
+<LI>Smart Card Research and Advanced Application Conference (CARDIS), Program Committee (2011, 2012, 2013)
+<LI>Constructive Side-Channel Analysis and Secure Design (COSADE), Program Committee (2012)
+<LI>Digital System Design (DSD) Euromicro conference, Special Session Program Committee (2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021)
+<LI>Design, Automation and Test in Europe (DATE), Program Committee (2017, 2018)
+<LI>CCS 2017, ASHES workshop on hardware security, Program Committee (2017, 2018, 2019, 2020, 2021)
+<LI>International Conference on Hardware Security and Trust (ICHST), Program Committee (2020, 2021)
+<LI>International Symposium for Testing and Failure Analysis (ISTFA), Program Committee (2019, 2020, 2021)
+<LI>European Research Council (ERC), Peer Reviewer (2010)
+<LI>Technology Foundation STW, Dutch Research Funding Council, Peer Reviewer (2013)
+<LI>Journal of Cryptology, Peer Reviewer (2018)
+<LI>Journal of Cryptographic Engineering (JCEN), Associate Editor and Peer Reviewer (2011, 2012, 2013, 2014, 2015, 2016, 2017, 2020)
+<LI>IEEE Transactions on Dependable and Secure Computing (TDSC), Peer Reviewer (2018)
+<LI>IEEE Transactions on Computers (TC), Peer Reviewer (2006, 2007, 2009, 2012, 2013, 2014)
+<LI>IEEE Transactions on Reliability (TR), Peer Reviewer (2014)
+<LI>IEEE Transactions on Computer-Aided Design of ICs and Systems (2014, 2018, 2019)
+<LI>IEEE Transactions on Very Large Scale Integration Systems (2018, 2019)
+<LI>Wiley Publisher, Reviewer (2010)
+<LI>AIP Publishing for Applied Physics Letters (2019)
+<LI>Journal of Information Security, Peer Reviewer (2011)
+<LI>Journal of Microelectronics Reliability, Peer Reviewer (2012, 2013)
+<LI>Journal of Information Science and Engineering, Peer Reviewer (2013)
+<LI>The Computer Journal (COMPJ), Peer Reviewer (2013)
+<LI>ACM Transactions on Reconfigurable Technology and Systems, Peer Reviewer (2008, 2013)
+<LI>ACM Transactions on Information and System Security, Peer Reviewer (2013)
+<LI>ACM Transactions on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Peer Reviewer (2018)
+<LI>Microprocessors and Microsystems (Elsevier), Peer Reviewer (2015, 2017, 2020)
+</UL>
+
+ 
+<H2 id=publications>Publications</H2>
+<P>Please <B>do not copy any of my publications onto your own Internet server for public access</B> without explicit permission. If you want to
+refer to any of my texts, please use a hyperlink to my original and not a copy. I update these texts frequently and I want to prevent the
+confusion that arises if people read somewhere else obsolete versions that are not under my control.
+
+<H3>Posters</H3>
+<UL>
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster1.pdf">
+Hardware Security</A>
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster2.pdf">
+Video Imaging of Silicon Chips</A>
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster3.pdf">
+Data remanence in non-volatile semiconductor memory (Part I)</A>
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster4.pdf">
+Data remanence in non-volatile semiconductor memory (Part II)</A>
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster5.pdf">
+Power analysis attacks</A>
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster6.pdf">
+Optically enhanced position-locked power analysis</A>
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster7.pdf">
+Optical surveillance on silicon chips</A>
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/poster8.pdf">
+Silicon scanning reveals hidden backdoors in semiconductor chips</A>
+  <LI><A href="http://www.cl.cam.ac.uk/research/security/posters/sps32-iphone.pdf">iPhone 5c NAND mirroring attack</A>
+</UL>
+
+<H3>English texts</H3>
+<UL>
+  <LI><a href="http://www.cl.cam.ac.uk/~sps32/IronKey_teardown.pdf">Teardown and feasibility study of IronKey - the most secure USB Flash drive</a>. Hardwear.IO Conference, Netherlands, 28-29 October 2021. (<a href="http://www.cl.cam.ac.uk/~sps32/HWIO_IRONKEY.pdf">slides</a>).
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/PAINE2020_NVM.pdf">Compromising device security via NVM controller vulnerability</A>. IEEE International Conference on Physical Assurance and Inspection of Electronics (PAINE), Virtual, 15-16 December 2020. IEEE Xplore. (<A href="http://www.cl.cam.ac.uk/~sps32/PAINE2020_slides.pdf">Slides</A>)
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/HWIO_OTB.pdf">Practical Reverse Engineering of ECC-based authentication Device with Zero Knowledge</A>. Hardwear.IO Netherlands, Virtual Conference, 1-2 October 2020
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/HWIO_Hints.pdf">Hints from Hardware Security for solving real-world challenges</A>. Hardwear.IO Virtual Conference, 30 April - 1 May 2020
+  <LI><A href="https://arxiv.org/abs/1910.05086">Hardware Security Evaluation of MAX 10 FPGA: Feasibility Study of IntelÂ® MAX 10 devices for compliance to MODH security level</A>. arXiv:1910.05086, October 2019
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/HWIO_MAX10.pdf">Hardware security evaluation of Intel MAX 10 FPGAs: from feasibility study to security boundaries</A>. Hardware Security Conference and Training (Hardwear.IO 2019), Hague, Netherlands, September 2019
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/Slides_NTU2018.pdf">Hardware Security: Present challenges and Future directions</A>. TL@NTU Workshop on IC Hardware Analysis, 20th July 2018, Singapore
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/IPFA2018_Sergei.pdf">Is Hardware Security prepared for unexpected discoveries?</A> 25th International Symposium on the Physical and Failure Analysis of Integrated Circuits (IPFA-2018), 16-19 July 2018, Singapore. IEEE Xplore 2018. (<A href="http://www.cl.cam.ac.uk/~sps32/Slides_IPFA2018.pdf">Slides</A>)
+  <LI><A
+href="http://www.cl.cam.ac.uk/~sps32/PAINE2018_3R.pdf">Hardware Security implications of Reliability, Remanence and Recovery in Embedded memory</A>. PAINE workshop at Design Automation Conference (DAC-2018), 24th June 2018, San Francisco, USA. Journal of Hardware and Systems Security, 2(4), Springer 2018, pp.314-321. (<A href="http://www.cl.cam.ac.uk/~sps32/Slides_PAINE2018.pdf">Slides</A>)
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/ISTFA2017_Sergei.pdf">Combining Hardware Security, Failure Analysis and Forensic Analysis for the benefit of all</A>. Invited talk at ISTFA 2017, Pasadena, USA, November 2017
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/HWIO_keynote.pdf">Challenging real-world targets: from iPhone to insulin pump</A>. Keynote talk at Hardware Security Conference and Training (Hardwear.IO 2017), Hague, Netherlands, September 2017
+  <LI><A href="http://arxiv.org/abs/1709.06026">Deep dip teardown of tubeless insulin pump</A>. arXiv:1709.06026, September 2017
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/ahsa2017_prob.pdf">How microprobing can attack encrypted memory</A>. In Proceedings of Euromicro Conference on Digital System Design, AHSA 2017 Special Session, Vienna, Austria. IEEE Computer Society, 2017. (<A href="http://www.cl.cam.ac.uk/~sps32/ahsa2017_slides.pdf">Slides</A>).
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/cardis2016_sem.pdf">Reverse engineering Flash EEPROM memories using Scanning Electron Microscopy</A>. In Proceedings of the 15th Smart Card Research and Advanced Application Conference (CARDIS 2016), Cannes, France, November 2016
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/istfa2016_sem.pdf">Direct charge measurement in Floating Gate transistors of Flash EEPROM using Scanning Electron Microscopy</A>. In Proceedings of the 42nd International Symposium for Testing and Failure Analysis (ISTFA), Fort Worth, USA, November 2016
+  <LI><A href="http://arxiv.org/abs/1609.04327">The bumpy road towards iPhone 5c NAND mirroring</A>. arXiv:1609.04327, September 2016
+  <LI><A href="http://discovery.ucl.ac.uk/1452720/">Be prepared: The EMV pre-play attack</A>. IEEE Security & Privacy, 2015.
+  <LI><A href="http://www.cl.cam.ac.uk/~sjm217/papers/oakland14chipandskim.pdf">Chip and Skim: cloning
+EMV cards with the pre-play attack</A>. IEEE Symposium on Security and Privacy ("Oakland"), May, 2014.
+  <LI><A href="http://talks.cam.ac.uk/talk/index/52325">Security, Reliability and
+Backdoors</A>. Talk at the Security Group seminar 13 May 2014 (<A
+href="http://www.cl.cam.ac.uk/~sps32/SG_talk_SRB.pdf">slides</A>).
+  <LI><A HREF="http://www.cl.cam.ac.uk/~sps32/PartII_030214.pdf">Tamper resistance
+and hardware security</A>. Guest lecture in the <A
+HREF="http://www.cl.cam.ac.uk/teaching/1314/SecurityII/">Part II
+Security</A> course, 03 February 2014.
+  <LI>I gave a lecture course on Hardware Security of semiconductor chips at Nanyang Technological
+University in Singapore for undergraduates and PhD students of Temasek Laboratory department in May 2013.
+  <LI>I gave invited talk "Silicon scanning technology for hidden backdoors in semiconductor chips" at
+National University of Singapore, Department of Engineering on 20 May 2013.
+  <LI><A HREF="http://www.cl.cam.ac.uk/~sps32/PartII_040213.pdf">Tamper resistance
+and hardware security</A>. Guest lecture in the <A
+HREF="http://www.cl.cam.ac.uk/teaching/1213/SecurityII/">Part II
+Security</A> course, 04 February 2013.
+  <LI><A href="http://arxiv.org/abs/1209.2531">Chip and Skim: cloning EMV cards with the
+pre-play attack</A>. Eprint arXiv:1209.2531, September 2012
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/ches2012-backdoor.pdf">Breakthrough silicon
+scanning discovers backdoor in military chip</A>. Cryptographic Hardware and Embedded Systems
+Workshop (CHES-2012), 9-12 September 2012, Leuven, Belgium, LNCS 7428, Springer,
+ISBN 978-3-642-33026-1, pp.23-40.
+(<A href="http://www.cl.cam.ac.uk/~sps32/ches2012_slides.pdf">slides</A>).
+  <LI><A href="http://eprint.iacr.org/2012/296">In the blink of an eye: There goes your AES key</A>.
+IACR Cryptology ePrint Archive, Report 2012/296, 2012.
+  <LI>Integrated Circuit Investigation Method and Apparatus. Patent number WO2012/046029 A1
+  <LI><A
+HREF="http://www.cl.cam.ac.uk/~sps32/PartII_200212.pdf">Tamper resistance
+and hardware security</A>. Guest lecture in the <A
+HREF="http://www.cl.cam.ac.uk/teaching/1112/SecurityII/">Part II
+Security</A> course, 20 February 2012.
+  <LI><A
+href="http://www.springer.com/engineering/circuits+%26+systems/book/978-1-4419-8079-3">Physical
+Attacks and Tamper Resistance</a>. Chapter 7 in Introduction to Hardware Security and Trust,
+Eds: Mohammad Tehranipoor and Cliff Wang, Springer, September 2011, ISBN 978-1-4419-8079-3
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/NCL_2011.pdf">Hardware Security of
+Semiconductor Chips: Progress and Lessons</A>. School of Computing Science,
+Newcastle University, 27 June 2011, Newcastle upon Tyne.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/ECRYPT2011_1.pdf">Fault attacks on secure
+chips: from glitch to flash</A>. ECRYPT2 School on Design and Security of Cryptographic
+Algorithms and Devices, 29 May-03 June 2011, Albena near Varna, Bulgaria.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/ECRYPT2011_2.pdf">Side-channel attacks:
+new directions and horizons</A>. ECRYPT2 School on Design and Security of Cryptographic
+Algorithms and Devices, 29 May-03 June 2011, Albena near Varna, Bulgaria.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/ARO_2011.pdf">Physical Attacks on
+Tamper Resistance: Progress and Lessons</A>. 2nd ARO Special Workshop on Hardware
+Assurance, 11-12 April 2011, Washington DC, USA.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/JCEN_sync_sca.pdf">Synchronization
+method for SCA and fault attacks</A>. Journal of Cryptographic Engineering (JCEN),
+Vol.1, No.1, Springer, 2011, pp.71-77.
+  <LI><A href="http://talks.cam.ac.uk/talk/index/28204">Bumping attacks: the
+affordable way of obtaining chip secrets</A>. Talk at the Security Group
+seminar 7 December 2010 (<A href="http://www.cl.cam.ac.uk/~sps32/SG_talk_BA.pdf">slides</A>).
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/PartII_051110.pdf">Tamper resistance
+and hardware security</A>. Guest lecture in the <A
+HREF="http://www.cl.cam.ac.uk/teaching/1011/SecurityII/">Part II
+Security</A> course, 5 November 2010.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/fdtc2010-masking.pdf">Optical Fault Masking Attacks</A>.
+7th Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC 2010), 21 August 2010, Santa Barbara,
+USA. IEEE-CS Press, ISBN 978-0-7695-4169-3, pp.23-29.
+(<A href="http://www.cl.cam.ac.uk/~sps32/fdtc2010_slides.pdf">slides</A>).
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/ches2010_rump.pdf">Real world AES key extraction</A>.
+<A href="http://www.chesworkshop.org/ches2010/start.html#rump">Rump session</A> at
+Cryptographic Hardware and Embedded Systems Workshop (CHES-2010), 19 August 2010, Santa Barbara, USA.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/ches2010-bumping.pdf">Flash Memory 'Bumping' Attacks</A>.
+Cryptographic Hardware and Embedded Systems Workshop (CHES-2010), 18-20 August 2010, LNCS 6225, Springer,
+ISBN 3-642-15030-6, pp.158-172.
+(<A href="http://www.cl.cam.ac.uk/~sps32/ches2010_slides.pdf">slides</A>).
+  <LI><A href="http://www.emse.fr/spip/IMG/pdf/Pastis2010_comm.pdf">
+Fault and side-channel attacks on memory</A>. PASTIS-2010 Workshop on PACA Security Trends in
+Embedded Systems, 16-17 June 2010, Gardanne, France (<A
+href="http://www.cl.cam.ac.uk/~sps32/PASTIS2010_abstract.pdf">abstract</A> and <A
+href="http://www.cl.cam.ac.uk/~sps32/PASTIS2010.pdf">slides</A>).
+  <LI><A href="http://www.lorentzcenter.nl/lc/web/2010/383/info.php3?wsid=383">
+Hardware security of silicon chips:
+progress, pitfalls and challenges for physical attacks</A>. Lorentz Center
+Workshop on Provable Security against Physical Attacks.
+15-19 February 2010, Leiden, Netherlands (<A
+href="http://www.lorentzcenter.nl/lc/web/2010/383/abstracts.php3?wsid=383&type=presentations">abstract</A>
+and <A href="http://www.cl.cam.ac.uk/~sps32/lorentz_2010.pdf">slides</A>).
+  <LI><A
+HREF="http://www.cl.cam.ac.uk/~sps32/PartII_201109.pdf">Tamper resistance
+and hardware security</A>. Guest lecture in the <A
+HREF="http://www.cl.cam.ac.uk/teaching/0910/Security/">Part II
+Security</A> course, 20 November 2009.
+  <LI><A href="http://talks.cam.ac.uk/talk/index/20564">Optical surveillance
+on silicon chips: your crypto keys are visible</A>. Talk at the Security
+Group seminar 13 October 2009.
+(<A href="http://www.cl.cam.ac.uk/~sps32/SG_talk_OSSC_a.pdf">slides</A>).
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/fdtc2009-opt-emis.pdf">Using
+Optical Emission Analysis for Estimating Contribution to Power Analysis</A>.
+6th Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC 2009),
+6 September 2009, Lausanne, Switzerland. IEEE-CS Press,
+ISBN 978-0-7695-3824-2, pp.111-119.
+(<A href="http://www.cl.cam.ac.uk/~sps32/fdtc2009_slides.pdf">slides</A>).
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/host2009-flash_heat.pdf">Local
+Heating Attacks on Flash Memory Devices</A>. 2nd IEEE International Workshop
+on Hardware-Oriented Security and Trust (HOST-2009), 27 July 2009,
+San Francisco, CA, USA. IEEE Xplore, ISBN 978-1-4244-4804-3.
+(<A href="http://www.cl.cam.ac.uk/~sps32/host2009_slides.pdf">slides</A>).
+  <LI><A href="http://talks.cam.ac.uk/talk/index/16339">Hardware security:
+trends and pitfalls of the past decade</A>. Talk at the Security Group
+seminar 20 January 2009 (<A
+href="http://www.cl.cam.ac.uk/~sps32/SG_talk_HSTP_eff.pdf">slides</A>).
+  <LI><A
+HREF="http://www.cl.cam.ac.uk/~sps32/PartII_241108.pdf">Tamper resistance
+and hardware security</A>. Guest lecture in the <A
+HREF="http://www.cl.cam.ac.uk/teaching/0809/CST/node69.html">Part II
+Security</A> course, 24 November 2008.
+  <LI><A href="http://www.ipam.ucla.edu/programs/scws4/">
+Semi-Invasive Extension to Physical Attacks</A>. Securing Cyberspace:
+Applications and Foundations of Cryptography and Computer Security.
+Workshop IV: Special purpose hardware for cryptography: Attacks and
+Applications. 4-8 December 2006, Los Angeles (<A
+href="http://www.cl.cam.ac.uk/~sps32/IPAM2006_abs.pdf">abstract</A>
+and <A href="http://www.cl.cam.ac.uk/~sps32/IPAM2006.pdf">slides</A>).
+  <LI><A href="http://talks.cam.ac.uk/talk/index/5377">Optically
+enhanced position-locked power analysis</A>. Talk at the Security
+Group seminar 31 October 2006 (<A
+href="http://www.cl.cam.ac.uk/~sps32/OEPA_SecSem_slides.pdf">slides</A>).
+  <LI><A
+href="http://www.cl.cam.ac.uk/~sps32/ches2006-poslock.pdf">Optically
+Enhanced Position-Locked Power Analysis</A>. Cryptographic Hardware and
+Embedded Systems Workshop (CHES-2006), 11-13 October 2006, LNCS 4249, Springer,
+ISBN 3-540-46559-6, pp.61-75 (<A
+href="http://www.cl.cam.ac.uk/~sps32/Slides_CHES2006.pdf"
+>slides</A>).
+  <LI><A href="http://www.dice.ucl.ac.be/crypto/sumschool-abstracts.htm">
+Tamper resistance and physical attacks</A>. Summer School on Cryptographic
+Hardware, Side-Channel and Fault Attacks (ECRYPT-2006), 12-15 June 2006,
+Louvain-la-Neuve (<A
+href="http://www.cl.cam.ac.uk/~sps32/ECRYPT2006_part1.pdf">slides 1</A>,
+<A href="http://www.cl.cam.ac.uk/~sps32/ECRYPT2006_part2.pdf">slides
+2</A>, <A
+href="http://www.cl.cam.ac.uk/~sps32/ECRYPT2006_part3.pdf">slides 3</A>
+and <A href="http://www.cl.cam.ac.uk/~sps32/ECRYPT2006_part4.pdf">slides
+4</A>).
+  <LI><A
+href="http://www.cl.cam.ac.uk/~mkb23/research/Survey.pdf">Cryptographic
+Processors -- A Survey (Invited Paper)</A>. IEEE Proceedings, Special
+Issue on Cryptography and Security, February 2006, Vol.94, No.2,
+pp.357-369. Full version is available as a <A
+href="http://www.cl.cam.ac.uk/TechReports/UCAM-CL-TR-641.html">Technical
+Report UCAM-CL-TR-641</A>.
+  <LI><A
+href="http://www.cl.cam.ac.uk/~sps32/DataRem_CHES2005.pdf">Data
+Remanence in Flash Memory Devices</A>. Cryptographic Hardware and
+Embedded Systems Workshop (CHES-2005), 30 August - 1 September 2005, LNCS 3659,
+Springer, ISBN 3-540-28474-5, pp.339-353 (<A
+href="http://www.cl.cam.ac.uk/~sps32/Slides_CHES2005.pdf"
+>slides</A>).
+  <LI><A
+href="http://www.cl.cam.ac.uk/TechReports/UCAM-CL-TR-630.html">Semi-invasive
+attacks - A new approach to hardware security analysis</A>. Technical
+Report UCAM-CL-TR-630, University of Cambridge,Computer Laboratory,
+April 2005.
+  <LI><A
+href="http://www.cl.cam.ac.uk/Research/Security/seminars/2004/2004-10-26.html">Data
+remanence in non-volatile semiconductor memories. Part I: Introduction and
+non-invasive approach</A>. Talk at the Security Group seminar 26 October 2004
+(<A
+href="http://www.cl.cam.ac.uk/~sps32/NVM_Reman1_Slides.pdf">slides</A>).
+  <LI><A
+href="http://www.cl.cam.ac.uk/~rja14/Papers/SISW02.pdf"> On a
+New Way to Read Data from Memory</A>. First International IEEE
+Security in Storage Workshop, 11 December 2002, Greenbelt Marriott,
+Maryland, USA.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/ches02-optofault.pdf">
+Optical Fault Induction Attacks</A>. Cryptographic Hardware and Embedded
+Systems Workshop (CHES-2002), 13-15 August 2002, LNCS 2523, Springer-Verlag,
+ISBN 3-540-00409-2, pp.2-12
+(<A href="http://www.cl.cam.ac.uk/~sps32/Optical_Slides_CHES2002.pdf"
+>slides</A>, <A 
+href="http://www.cl.cam.ac.uk/~sps32/optofault_rus.pdf">Russian version</A>).
+  <LI><A href="http://www.cl.cam.ac.uk/TechReports/UCAM-CL-TR-536.html">Low
+Temperature Data Remanence in Static RAM</A>. Technical Report UCAM-CL-TR-536,
+University of Cambridge,Computer Laboratory, June 2002.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/mcu_lock.html">Copy
+Protection in Modern Microcontrollers</A> is an overview of copy
+protection reliability in modern microcontrollers, 2000.
+</UL>
+
+<H3>Russian texts</H3>
+<UL>
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/rus5_2004.pdf">
+Ispolzovanie Sfokusirovannogo Lazernogo Izlucheniya Dlya Izmeneniya
+Sostoyaniya Elementov KMOP IS</A> //Electronics, Micro- and
+Nanoelectronics. MEPhI, Moscow, 2004, pp.67-72.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/rus4_2003.pdf">
+Ispolzovanie Sfokusirovannogo Lazernogo Izlucheniya Dlya Opredeleniya
+Sostoyaniya Yacheek Pamyati KMOP OZU</A> //Electronics, Micro- and
+Nanoelectronics. MEPhI, Moscow, 2003, pp.37-42.
+  <LI><A href="http://www.scserv.ru/scs/www/pages/level-2/scs/publish.php?id=1">Smart-Karty
+- vzgljad na bezopasnost pri svete fotovspyshki</A> //PLAS, Vol.6-7, 2002.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/optofault_rus.pdf">
+Ataki metodom opticheskogo navedeniya oshibok</A>. Approved translation
+of Optical Fault Induction Attacks paper. Cryptographic Hardware
+and Embedded Systems Workshop (CHES-2002), LNCS 2523, Springer-Verlag,
+ISBN 3-540-00409-2, pp.2-12.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/rus3_2001.pdf">Vliyanie
+temperatury na vremya sohraneniya informacii v staticheskih OZU</A>
+//Electronics, Micro- and Nanoelectronics. MEPhI, Moscow, 2001,
+pp.86-88
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/rus2_2001.pdf">Zaschita
+Sovremennyh Mikrokontrollerov ot Kopirovaniya</A> //Automatics,
+Electronics, Microelectronics, Measurement Systems. MEPhI, Moscow,
+2001, pp.84-85.
+  <LI><A href="http://www.cl.cam.ac.uk/~sps32/rus1_1999.pdf">
+Ispolzovanie Programmiruemyh Logicheskih Integralnyh Shem v
+Oftalmologicheskih Ustrojstvah</A> //Electronics, Micro- and
+Nanoelectronics. MEPhI, Moscow, 1999, pp.99-103.
+</UL>
+
+<H3>Press releases September-October 2016</H3>
+<UL>
+  <LI><A href="https://www.onthewire.io/researcher-bypasses-ios-passcode-limit-with-nand-mirroring/">Researcher Bypasses iOS Passcode Limit With NAND Mirroring</A>. On the Wire, Device Security, Hacking, 15 September 2016.
+  <LI><A href="http://fortune.com/2016/09/15/simple-iphone-hack-fbi-against-apple/">Researcher Shows Simple iPhone Hack FBI Said Couldn't Be Done</A>. Fortune, 15 September 2016.
+  <LI><A href="http://blackpointcyber.com/researcher-proves-viability-of-nand-mirroring-to-bypass-iphone-passcode-restrictions/">Researcher Proves Viability of NAND Mirroring to Bypass iPhone Passcode Restrictions</A>. Black Point, 15 September 2016.
+  <LI><A href="http://news.softpedia.com/news/researcher-does-what-fbi-couldn-t-bypasses-ios-passcode-limit-508359.shtml">Researcher Does What FBI Couldn't, Bypasses iOS Passcode Limit</A>. Softpedia, Security, 15 September 2016.
+  <LI><A href="https://www.wired.com/2016/09/heres-fbi-hacked-san-bernardino-shooters-iphone/">How the FBI Could Have Hacked the San Bernardino Shooter's iPhone</A>. Wired, Security, 15 September 2016.
+  <LI><A href="http://www.pcworld.com/article/3120363/the-fbi-could-have-saved-money-with-this-iphone-5c-hack.html">The FBI could have saved money with this iPhone 5c hack</A>. PCWorld, Security, 15 September 2016.
+  <LI><A href="https://threatpost.com/researcher-proves-viability-of-nand-mirroring-to-bypass-iphone-passcode-restrictions/120648/">Researcher Proves Viability of NAND Mirroring to Bypass iPhone Passcode Restrictions</A>. Threat Post, 16 September 2016.
+  <LI><A href="http://tech.musiqcafe.com/fbi-was-wrong-researcher-claims-iphone-5c-can-be-hacked-by-nand-mirroring/">FBI used to be wrong: Researcher Claims iPhone 5c can be Hacked by means of NAND Mirroring</A>. Tech Musiq Cafe, 16 September 2016.
+  <LI><A href="http://www.cso.com.au/article/606999/fbi-could-saved-money-iphone-5c-hack">The FBI could have saved money with this iPhone 5c hack</A>. CSO from IDG, 16 September 2016.
+  <LI><A href="http://gadgets.ndtv.com/mobiles/news/fbi-was-wrong-researcher-claims-iphone-5c-can-be-hacked-by-nand-mirroring-1459635">FBI Was Wrong: Researcher Claims iPhone 5c Can Be Hacked by NAND Mirroring</A>. Gadgets 360, 16 September 2016.
+  <LI><A href="http://thehackernews.com/2016/09/fbi-iphone-unlock.html">Instead of spending $1.3 million, FBI could have Hacked iPhone in just $100</A>. The Hacker News, 16 September 2016.
+  <LI><A href="http://www.techworm.net/2016/09/can-hack-iphone-5c-less-100-nand-bypass.html">You can hack iPhone 5c for less than $100 with NAND bypass</A>. Tech Worm, 16 September 2016.
+  <LI><A href="http://www.tripwire.com/state-of-security/latest-security-news/researcher-demonstrates-its-possible-to-bypass-ios-passcode-limit/">Researcher Develops Method to Bypass iOS Passcode Limit on iPhone</A>. Trip Wire, Security News, 16 September 2016.
+  <LI><A href="https://www.engadget.com/2016/09/16/the-fbi-missed-a-trick-to-hack-the-san-bernardino-iphone/">The FBI missed a trick to hack the San Bernardino iPhone</A>. Engadget, 16 September 2016.
+  <LI><A href="http://securityaffairs.co/wordpress/51342/hacking/nand-mirroring.html">NAND mirroring Unlock San Bernardino shooter iPhone with just $100</A>. Security Affairs, 17 September 2016.
+  <LI><A href="http://betanews.com/2016/09/19/iphone-cracked-for-100-dollars/">The iPhone's passcode security can be beaten for just $100</A>. Beta News, 17 September 2016.
+  <LI><A href="http://www.bleepingcomputer.com/news/apple/researcher-bypasses-iphone-passcode-using-the-technique-the-fbi-said-doesnt-work/">Researcher Bypasses iPhone Passcode Using the Technique the FBI Said Doesn't Work</A>. Bleeping Computer, 17 September 2016.
+  <LI><A href="http://www.techugly.com/2016/09/now-you-can-hack-iphone-for-less-than.html">Now You Can Hack iPhone For Less Than $100 With NAND Bypass</A>. Tech Ugly, 17 September 2016.
+  <LI><A href="http://www.indiatimes.com/lifestyle/technology/did-you-know-you-can-hack-into-the-iphone-for-as-less-as-100_-261892.html">Did You Know You Can Hack Into The iPhone For As Less As $100?</A>. India Times, 17 September 2016.
+  <LI><A href="https://www.hackread.com/iphone-5c-hacked-with-cheap-hardware/">Turns out iPhone 5c can be hacked with a $100 hardware</A>. Hack Read, 17 September 2016.
+  <LI><A href="https://www.digitalmunition.me/2016/09/fbi-saved-millions-iphone-5c-hack/">The FBI could have saved millions with this iPhone 5c hack</A>. Digital Munition, 18 September 2016.
+  <LI><A href="http://www.theregister.co.uk/2016/09/19/fbi_overpaid_999900_to_crack_san_bernardino_iphone_5c_password/">FBI overpaid $999,900 to crack San Bernardino iPhone 5c password: Hacker brews fast NAND mirroring prototype for $100</A>. The Register, 19 September 2016.
+  <LI><A href="http://www.bbc.co.uk/news/technology-37407047">Hardware hack defeats iPhone passcode security</A>. BBC News, Technology, 19 September 2016.
+  <LI><A href="http://appleinsider.com/articles/16/09/19/professor-proves-nand-mirroring-can-bypass-iphone-5c-security-protocols">Professor proves NAND mirroring attack thwarts iPhone 5c security protocols</A>. Apple Insider, 19 September 2016.
+  <LI><A href="http://www.scmagazineuk.com/researcher-posts-paper-detailing-us100-iphone-5c-nand-mirroring-device/article/523382/">Researcher posts paper detailing US$100 iPhone 5C NAND mirroring device</A>. SC Magazine UK, 19 September 2016.
+  <LI><A href="http://www.iphonehacks.com/2016/09/cambridge-computer-scientist-uses-hardware-hack-bypass-iphone-passcode.html">Cambridge Computer Scientist Uses Hardware Hack to Bypass iPhone Passcode</A>. iPhone Hacks, 19 September 2016.
+  <LI><A href="http://www.techradar.com/news/phone-and-communications/iphone-passwords-can-be-broken-with-this-cheap-hardware-hack-1328924">iPhone passwords can be broken with this cheap hardware hack</A>. Tech Radar, 19 September 2016.
+  <LI><A href="https://www.grahamcluley.com/bypass-iphones-passcode-lock-100/">Bypass an iPhone 5c's passcode lock for $100</A>. Graham Cluley, 19 September 2016.
+  <LI><A href="http://www.techweekeurope.co.uk/security/apple-iphone-75-hardware-hack-197821">Apple iPhone 5C Password Lock 'Defeated' With Â£75 Hardware Hack</A>. Tech Week Europe, 19 September 2016.
+  <LI><A href="http://www.thatsnonsense.com/security-researcher-proves-fbi-wrong-hacks-iphone-5c/">Security researcher proves FBI wrong ? hacks an iPhone 5c</A>. Thats Nonsense, 19 September 2016.
+  <LI><A href="http://uk.pcmag.com/apple-iphone-5c/84606/news/cambridge-researcher-shows-fbi-how-to-hack-an-iphone-for-100">Cambridge researcher shows FBI how to hack an iPhone for $100</A>. PC Mag UK, 19 September 2016.
+  <LI><A href="http://www.independent.mk/articles/36644/Cambridge+Computer+Scientist+Defeats+iPhone+Passcode+Security">Cambridge Computer Scientist Defeats iPhone Passcode Security</A>. Independent, 19 September 2016.
+  <LI><A href="http://news.sky.com/story/academic-beats-fbi-by-unlocking-apple-iphone-for-16375-10586012">Academic beats FBI by unlocking Apple iPhone for Â£75</A>. Sky News, 20 September 2016.
+  <LI><A href="https://techxplore.com/pdf393575708.pdf">Computer scientist shows how to crack Apple iPhone 5c passcode for less than $100</A>. Tech Xplore, 20 September 2016.
+  <LI><A href="https://hipsterpixel.co/2016/09/20/professor-hacks-iphone-nand-chip-of-iphone-5c-to-gain-access/">Professor Hacks iPhone NAND Chip of iPhone 5C to Gain Access</A>. Hipster Pixel, 20 September 2016.
+  <LI><A href="http://arstechnica.co.uk/security/2016/09/iphone-5c-nand-mirroring-passcode-attack/">iPhone passcode bypassed with NAND mirroring attack</A>. Ars Technica, 20 September 2016.
+  <LI><A href="http://www.dailymail.co.uk/sciencetech/article-3798251/What-bargain-Computer-scientist-hacks-iPhone-75-FBI-paid-firm-1-MILLION-thing.html">What a bargain! Computer scientist hacks iPhone for Â£75 after the FBI paid a firm almost Â£1 MILLION to do the same thing</A>. Daily Mail, 20 September 2016.
+  <LI><A href="http://www.cambridge-news.co.uk/watch-a-cambridge-scientist-crack-the-iphone-encryption-that-stumped-the-fbi/story-29734706-detail/story.html">
+Watch a Cambridge scientist crack the iPhone encryption that stumped the FBI</A>. Cambridge News, 20 September 2016.
+  <LI><A href="https://www.theguardian.com/technology/2016/sep/20/iphone-hacking-passcodes-nand-mirroring-password">$100 store-bought kit can help anyone hack into iPhone passcodes</A>. The Guardian, 20 September 2016.
+  <LI><A href="http://searchsecurity.techtarget.com/news/450304644/NAND-mirroring-iPhone-hack-would-have-made-the-FBIs-job-much-easier">NAND mirroring iPhone hack would have made the FBI's job much easier</A>. Search Security, 20 September 2016.
+  <LI><A href="http://www.theinquirer.net/inquirer/news/2471359/iphone-passcodes-can-be-bypassed-using-cheap-hardware-hack-and-persistence">iPhone passcodes can be bypassed using cheap hardware hack and persistence</A>. The Inquirer, Security, 20 September 2016.
+  <LI><A href="http://www.digitaltrends.com/mobile/cambridge-researcher-hacks-iphone-security-off-the-shelf-equipment/">You can hack almost any iPhone with just $100 worth of electronics</A>. Digital Trends, Mobile, 21 September 2016.
+  <LI><A href="https://www.yahoo.com/tech/hack-almost-iphone-just-100-165200044.html">You can hack almost any iPhone with just $100 worth of electronics</A>. Yahoo, Tech, 21 September 2016.
+  <LI><A href="http://www.24newsworld.com/open-an-iphone-in-40-hours/">$104 High Street Instrument Can Open An Apple iPhone In 40 Hours</A>. 24 News, Technology, 21 September 2016.
+  <LI><A href="https://news.vice.com/article/the-fbi-spent-13m-to-crack-the-iphone-this-hacker-spent-just-100">The FBI spent $1.3M to crack the iPhone - this hacker spent just $100</A>. Vice News, Technology, 21 September 2016.
+  <LI><A href="https://www.tcinet.ru/en/press-centre/technology-news/4268/">Researcher hacked iPhone 5c ten thousand times cheaper than the FBI hackers</A>. Technical Center of Internet, Techno News, 21 September 2016.
+  <LI><A href="http://www.telegraph.co.uk/technology/2016/09/21/80-high-street-tool-can-unlock-an-iphone-in-40-hours/">Â£80 high street tool can unlock an iPhone in 40 hours</A>. The Telegraph, Technology, 21 September 2016.
+  <LI><A href="http://www.economist.com/news/science-and-technology/21707514-cambridge-don-shows-fbi-how-save-money-phone-hacking-thats-way">That's the way to do it. A Cambridge don shows the FBI how to save money on phone hacking</A>. The Economist, Data Security, 22 September 2016.
+  <LI><A href="http://theusualroutine.com/2016/09/28/fbi-spent-1-3m-crack-iphone-hacker-spent-just-100/">The FBI spent $1.3M to crack the iPhone - this hacker spent just $100</A>. The Usual Routine, 28 September 2016.
+  <LI><A href="http://www.edn.com/electronics-blogs/test-cafe/4442843/How-one-researcher-cracked-the-iPhone-5c">How one researcher cracked the iPhone 5c</A>. EDN Network, 11 October 2016.
+</UL>
+
+<H3>Press releases September 2012</H3>
+<UL>
+  <LI><A href="http://www.bbc.co.uk/news/technology-19559124">Chip and pin 'weakness' exposed by Cambridge researchers</A>. The BBC News, Technology, 11 September 2012.
+  <LI><A href="http://www.pcworld.com/article/262197/emv_protocol_flaw_allows_preplay_attacks_against_chipenabled_payment_cards_researchers_say.html">EMV protocol flaw allows 'pre-play' attacks against chip-enabled payment cards, researchers say</A>. PC World, Security, 11 September 2012.
+</UL>
+
+<H3>Press releases May 2012</H3>
+<UL>
+  <LI><A href="http://www.guardian.co.uk/technology/2012/may/29/cyber-attack-concerns-boeing-chip">Cyber-attack concerns raised over Boeing 787 chip's 'back door'</A>. The Guardian, 29 May 2012 
+  <LI><A href="http://www.theregister.co.uk/2012/05/29/silicon_backdoor/">Researchers find backdoor in milspec silicon</A>. The Register, 29 May 2012
+  <LI><A href="http://www.nextgov.com/defense/2012/05/uk-researchers-discover-backdoor-american-military-chip/55949/?oref=ng-HPtopstory">UK researchers discover backdoor in American military chip</A>. Nextgov, 29 May 2012
+  <LI><A href="http://www.businessinsider.com/sergei-skorobogatov-defends-backdoor-claims-2012-5?IR=T">Cambridge Scientist Defends Claim That US Military Chips Made In China Have 'Backdoors'</A>. Business Insider, 29 May 2012
+  <LI><A href="http://defensetech.org/2012/05/30/smoking-gun-proof-that-military-chips-from-china-are-infected/">Proof That Military Chips From China Are Infected?</A> Defense Tech, 30 May 2012 
+</UL>
+
+<H3>Press releases May 2002</H3>
+<UL>
+  <LI><A href="http://www.g4tv.com/techtvvault/features/37779/Smart_Card_Vulnerability_Found.html">'Smart Card'
+Vulnerability Found.</A> TechTV, 16 May 2002
+  <LI><A href="http://www.infosecuritymag.com/2002/may/digest16.shtml#news4">
+Optical Smart Card Attack Not a Major Risk.</A> Information Security
+Magazine, 16 May 2002
+  <LI><A href="http://www.newscientist.com/news/news.jsp?id=ns99992273">
+Camera flash opens up smart cards.</A> New Scientist, 13 May 2002
+  <LI><A href="http://www.nytimes.com/2002/05/13/technology/13SMAR.html">
+Vulnerability Is Discovered in Security for Smart Cards.</A> The New York
+Times, Technology, 13 May 2002
+</UL>
+     
+
+     <ul>
+      <P><B><H4><CENTER><A href="/sergei-skorobogatov/#news">[What's New]</A>
+         <A href="/sergei-skorobogatov/#expertise">[My Expertise]</A>
+         <A href="/sergei-skorobogatov/#research">[Research]</A>
+         <A href="/sergei-skorobogatov/#publications">[Publications]</A></CENTER></H4></B>
+    </ul>
+      
      </div>
    </div>
    <footer>
